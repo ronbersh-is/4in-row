@@ -1,0 +1,35 @@
+.game-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.board-section{
+display:flex;
+flex-direction: column;
+gap: 8px;
+}
+.rowItem{
+    display:flex;
+    width: 100%;
+    flex-direction:row;
+    gap:8px;
+}
+.colItem{
+    display:flex;
+    width: 40px;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.green{
+    background:green;
+}
+.red{
+    background:red;
+}
